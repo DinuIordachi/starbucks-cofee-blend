@@ -1,10 +1,39 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap');
 
 * {
   font-family: "Montserrat", sans-serif;
 }
 
 
-.bucks-nav-brand {
-  font-size: 4px !important;
+.starbucks-brand {
+  font-size: 24px !important;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 3px;
+}
+
+.starbucks-brand img {
+  width: 50px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.welcome-description-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.welcome-description-container h1 {
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: 700;
+  font-size: 4em;
+}
+
+.orange-header {
+  color: #D97819;
 }
