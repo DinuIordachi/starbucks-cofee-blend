@@ -40,6 +40,25 @@
   margin: 30px 0;
 }
 
+@media only screen and (max-width: 920px) {
+  .main-header {
+    font-size: 28px !important;
+  }
+  .main-image-container img {
+    transform: scale(1) !important;
+  }
+  .welcome-description-container {
+    margin-top: 50px !important;
+  }
+  .feedback-user-comment {
+    font-size: 12px !important;
+  }
+}
+
+.navbar-collapse {
+  flex-grow: 0 !important;
+}
+
 .orange-header {
   color: #D97819;
 }
@@ -71,7 +90,7 @@
 }
 
 .properties-second-image-container {
-  height: 200px;
+  height: 170px;
   padding: 10px 0;
 }
 
@@ -80,4 +99,121 @@
   background-repeat: no-repeat;
   width: 100%;
   height: 100%;
+}
+
+.secondary-header-container {
+  margin-bottom: 30px;
+}
+
+.secondary-header {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.secondary-header-line {
+  width: 150px;
+  height: 3px;
+  background-color: #006242;
+}
+
+.product-card {
+  background-color: #FBF4EC;
+  padding: 30px;
+  border-radius: 15px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.product-card .product-name {
+  font-weight: 600;
+  margin: 15px 0;
+}
+
+.add-to-cart-btn {
+  background-color: #006242;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.properties-text-container {
+  padding-left: 50px !important;
+}
+
+.products-container {
+  margin-top: 150px;
+}
+
+.product-prices-container .old-price {
+  text-decoration: line-through;
+  font-size: 12px;
+}
+
+.product-prices-container .actual-price {
+  font-weight: 700;
+}
+
+.carousel-container {
+  margin-top: 150px;
+  margin-bottom: 100px;
+}
+
+.carousel-purple-bg {
+  background-color: #FBF4EC;
+  border-radius: 20px;
+}
+
+.feedback-user-avatar {
+  height: 200px;
+  width: 200px;
+  background-size: cover;
+  border-radius: 50%;
+  border: 5px solid #ffffff;
+  margin: auto;
+}
+
+.feedback-user-nickname {
+  color: #000000;
+  font-weight: 300;
+  font-size: 24px;
+  margin: 25px 0;
+}
+
+.feedback-user-comment {
+  color: #000000;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.carousel-indicators [data-bs-target] {
+  background-color: #006242 !important;
+}
+
+.footer-container {
+  background-color: #1F2623;
+  padding: 60px 0 30px 0;
+  color: white !important;
+}
+
+.footer-sn-container {
+  font-size: 32px;
+}
+
+.footer-brand {
+  text-transform: uppercase;
+  font-size: 24px;
+  letter-spacing: 3px;
+  font-weight: bold;
+}
+
+.header-button {
+  background-color: white;
+  color: black !important;
+  margin: 0 15px;
+  border-radius: 5px;
 }
